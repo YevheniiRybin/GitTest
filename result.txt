@@ -1,0 +1,39 @@
+yevhenii@Yevheniis-MacBook-Air GitTest % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+yevhenii@Yevheniis-MacBook-Air GitTest % git branch
+  branch1
+* main
+yevhenii@Yevheniis-MacBook-Air GitTest % git log
+commit fa2012725944397ea10007acb5299158feb75bbf (HEAD -> main, origin/main)
+Author: YevheniiRybin <144894131+YevheniiRybin@users.noreply.github.com>
+Date:   Sat Oct 14 14:39:11 2023 +0300
+
+    Create Web_Git_file
+    
+    Web Git file created
+
+commit 7316112494a37f3b8f31066412368631537dacd5
+Merge: 8af0153 3c93ced
+Author: YevheniiRybin <evhenii.rybin@gmail.com>
+Date:   Sat Oct 14 14:36:16 2023 +0300
+
+    Solved conflict
+
+commit 8af0153a8c8b65b795f34a9b3d90d72098b0ebad
+Author: YevheniiRybin <evhenii.rybin@gmail.com>
+Date:   Sat Oct 14 14:29:19 2023 +0300
+
+    Add first line on main
+
+commit 3c93ceda5e3aeeb44bc5101f08ad393c596476d5 (origin/branch1, branch1)
+Author: YevheniiRybin <evhenii.rybin@gmail.com>
+yevhenii@Yevheniis-MacBook-Air GitTest % git log --merges
+commit 7316112494a37f3b8f31066412368631537dacd5
+Merge: 8af0153 3c93ced
+Author: YevheniiRybin <evhenii.rybin@gmail.com>
+Date:   Sat Oct 14 14:36:16 2023 +0300
+
+    Solved conflict
